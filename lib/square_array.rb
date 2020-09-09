@@ -5,4 +5,5 @@ def square_array(array)
   array.length.times do |index|
     arr.push(array[index] * array[index])
   end
+  arr
  end
