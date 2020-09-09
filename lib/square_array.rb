@@ -3,6 +3,6 @@ def square_array(array)
   arr = []
   
   array.length.times do |index|
-    arr.push(Math.sqrt.index)
+    arr.push(array[index] * array[index])
   end
  end
