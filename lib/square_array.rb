@@ -1,8 +1,8 @@
 def square_array(array)
   # your code here
   arr = []
-  c = 0
-  while c < array.length
   
-  
+  array.length.times do |index|
+    arr.push(array[index] + 1)
   end
+ end
